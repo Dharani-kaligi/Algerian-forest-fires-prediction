@@ -67,7 +67,7 @@ The dataset is slightly imbalanced with approximately:
 
 ❌ 44% Not Fire
 
-🧠 Model Training
+## 🧠 Model Training
 ✅ Models Used:
  Regression
 
@@ -75,25 +75,22 @@ Ridge Regression (RidgeCV)
 
 Lasso Regression (LassoCV)
 
-⚙️ Preprocessing:
+## ⚙️ Preprocessing:
 Applied StandardScaler to normalize features.
 
 Training performed on X_train_scaled.
 
-📏 Evaluation Metrics:
-Accuracy
+## 📏 Evaluation Metrics:
 
-F1 Score
+MAE
 
-Confusion Matrix
+R2_Score
 
-AUC-ROC Curve
-
-🔁 Cross-Validation
+## 🔁 Cross-Validation
 📌 Purpose:
 To enhance generalization and avoid overfitting by validating model performance across multiple data splits.
 
-🔄 Techniques Applied:
+# 🔄 Techniques Applied:
 ✅ 1. K-Fold Cross-Validation
 Splits data into k equal folds.
 
@@ -123,7 +120,7 @@ print("Best alpha:", ridge_model.alpha_)
 
 📌 Helps select optimal hyperparameters.
 
-📦 Libraries Used
+## 📦 Libraries Used
 
 import pandas as pd
 import numpy as np
